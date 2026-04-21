@@ -83,6 +83,10 @@ a:hover {
   font-size: 13px;
 }
 
+.mobile-br {
+  display: none;
+}
+
 .links {
   display: flex;
   flex-direction: column;
@@ -165,28 +169,31 @@ a:hover {
   }
 
   .hero {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 18px;
+    gap: 14px;
   }
 
   .hero-left {
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
 
   .avatar {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
   }
 
   .hero h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
-  .links {
-    flex-direction: row;
-    flex-wrap: wrap;
+  .mobile-br {
+    display: inline;
+  }
+
+  .links a {
+    padding: 6px 10px;
+    font-size: 12px;
   }
 
   .news li {
